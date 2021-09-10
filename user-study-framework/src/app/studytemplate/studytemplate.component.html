@@ -1,0 +1,195 @@
+
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <div class="container">
+    <span class="navbar-brand" href="#">User Study</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div *ngIf="showWelcome || showFinal">
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link mouseptr" (click)="onDataProtectionClicked()">Data Protection</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mouseptr" (click)="onContactClicked()">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Page Content -->
+
+<div *ngIf="studyEnded">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h1 class="mt-5">Thank you very much for your participation!</h1>
+        <br />
+        <p class="lead">We received 82 submissions which is really amazing.</p>
+        <p class="lead">If you are interested, you can view the results here:</p>
+        <br />
+        <a href="/studyresults" class="btn btn-info" role="button">Study RESULTS</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="!studyEnded">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+
+        <!-- Welcome -->
+        <div *ngIf="showWelcome">
+          <h1 class="mt-5">Welcome to our user study!</h1>
+          <p class="banner">&nbsp;</p>
+          <p class="lead">Thank you very much for participating.</p>
+          <p class="lead">It is best to conduct the study on a laptop or computer screen.</p>
+          <p class="lead"><strong>Please only use the buttons for navigation.</strong></p>
+          <p class="buttonstart">
+            <br />
+            <button type="button" class="btn btn-info" (click)="onStartClicked()">Click HERE to start the study</button>
+          </p>
+          <p style="text-align: left">
+            <br />
+            <br />
+            <br />
+            <b>Time required</b>: The study will require about 10 minutes of your time.<br />
+            <b>Risks</b>: There are no anticipated risks in this study.<br />
+            <b>Benefits</b>: There are no direct benefits to you for participating in this research study.<br />
+            <b>Payment</b>: You will receive no payment for participating in the interview.<br />
+          </p>
+        </div>
+
+        <!-- Explanation -->
+        <div *ngIf="showExplanation">
+          <div class="text-left">
+            <br />
+            <br />
+            <p class="lead">Study Content</p>
+            <p>
+              A <b>histogram</b> is an approximate representation of the distribution of numerical data:
+            </p>
+            <img alt="histogram" src="/assets/histogram.gif" style="height: 200px" /><br /><br />
+            <p>
+              You will be shown different versions of histograms with <b>different number of bins</b> and you will have
+              to <b>judge the underlying data distribution</b>.
+            </p>
+            <p>
+              At the beginning we ask a few introductory questions.
+            </p>
+            <p>
+              <br />
+              <button type="button" class="btn btn-info" (click)="onExplanationNextClicked()">NEXT</button>
+            </p>
+          </div>
+        </div>
+
+        <!-- Start -->
+        <div *ngIf="showStart">
+          <app-start></app-start>
+        </div>
+
+        <!-- Sanity Check -->
+        <div *ngIf="showSanityCheck">
+          <app-sanitycheck></app-sanitycheck>
+        </div>
+
+        <!-- Study -->
+        <div *ngIf="showStudy">
+          <app-study></app-study>
+        </div>
+
+        <!-- End -->
+        <div *ngIf="showFinal">
+          <br />
+          <h1 class="mt-5">Thank you very much for your participation!</h1><br />
+          <br />
+          <p class="lead">
+            Your anonymous PARTICIPANT TOKEN is:<br /><br />
+            {{participant.token}}<br />
+          </p>
+          <br />
+          <p class="buttonstart">
+            <a href="/showmyresults/{{participant.token}}" target="_blank" class="btn btn-success" role="button">You can view your results HERE</a>
+          </p>
+          <br />
+          <br />
+          <p class="buttonstart">
+            <button type="button" class="btn btn-secondary" (click)="onNewClicked()">Start a NEW survey</button>
+          </p>
+        </div>
+
+        <!-- Data Protection -->
+        <div *ngIf="showDataProtection">
+          <div class="text-left">
+            <br />
+            <br />
+            <p class="lead">Data recording</p>
+            <p>
+              We will record the answers to the tasks and also record the time it took to complete the tasks.
+              All data recording is done anonymous. The recorded data and the collected data from the anonymous
+              questionnaires will be used for our research analysis. Use of this data will be strictly limited to
+              this scientific project.
+            </p>
+            <p class="lead">Privacy and anonymity</p>
+            <p>
+              The participant data is fully anonymous. We will not ask for the name of the participants.
+              Participants will only be represented by anonymous, automatically generated tokens. All data will be held
+              in accordance with the EU General Data Protection Regulation (GDPR) and will not be used for any purpose
+              for which it is not expressly permitted.
+            </p>
+            <p class="lead">Your participation</p>
+            <p>
+              Please note that you are free to participate in this study or not as you wish. You can withdraw your
+              participation at any time while the study is running. You can ask questions about the study at any time.
+              You can ask for any material to be deleted or not to be used in any way.
+            </p>
+            <p class="lead">How to withdraw from the study</p>
+            <p>
+              One easy way to withdraw from the study is to just stop finishing the tasks and close your browser window.
+              Incomplete material will not be stored and therefore not used in the evaluation of the study. If you would
+              like to withdraw after your materials have been submitted, you will have to remember the PARTICIPANT TOKEN
+              that is shown at the end of the study, and then please contact Johanna Schmidt
+              (<a href="mailto:johanna.schmidt@vrvis.at">johanna.schmidt@vrvis.at</a>).
+            </p>
+            <p>
+              <br />
+              <button type="button" class="btn btn-secondary" (click)="onBackClicked()"><- Back</button>
+            </p>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div *ngIf="showContact">
+          <div class="text-left">
+            <br />
+            <br />
+            <p class="lead">Who we are</p>
+            <p>
+              We are researchers at the University of Vienna and the VRVis Zentrum für Virtual Reality und
+              Visualisierung Forschungs-GmbH, working on a research project to better understand how people read and
+              interpret data visualizations. We are conducting this study to evaluate different bin sizes for histogram
+              visualizations.
+            </p>
+            <p class="lead">Questions of Concerns</p>
+            <p>
+              Johanna Schmidt is the main responsible person for this user study. If you have any questions, concerns or
+              complaints about the project or the way the interview is being conducted, please feel free to contact her
+              via email (<a href="mailto:johanna.schmidt@vrvis.at">johanna.schmidt@vrvis.at</a>).
+            </p>
+            <p>
+              <br />
+              <button type="button" class="btn btn-secondary" (click)="onBackClicked()"><- Back</button>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,1286 @@
+{
+  "8xb7k3ea9yb23usul2ojhm3wh8j5z6s0": {
+    "data": {
+      "participant": {
+        "age": "20-29",
+        "education": "bachelor",
+        "experience": "expert",
+        "profession": "student",
+        "residence": "Austria"
+      },
+      "results": [
+        {
+          "answer": "normal_bimodal",
+          "confidence": 2,
+          "dataset": 42,
+          "time": 44642
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 1,
+          "dataset": 41,
+          "time": 62324
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 3,
+          "dataset": 127,
+          "time": 94184
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 1,
+          "dataset": 133,
+          "time": 111617
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 1,
+          "dataset": 1,
+          "time": 122884
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 96,
+          "time": 129514
+        },
+        {
+          "answer": "gamma",
+          "confidence": 1,
+          "dataset": 81,
+          "time": 160643
+        },
+        {
+          "answer": "normal",
+          "confidence": 3,
+          "dataset": 23,
+          "time": 166869
+        },
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 73,
+          "time": 173004
+        },
+        {
+          "answer": "gamma",
+          "confidence": 2,
+          "dataset": 5,
+          "time": 182259
+        },
+        {
+          "answer": "normal",
+          "confidence": 2,
+          "dataset": 151,
+          "time": 195296
+        },
+        {
+          "answer": "normal",
+          "confidence": 1,
+          "dataset": 60,
+          "time": 212049
+        },
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 73,
+          "time": 221010
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 1,
+          "dataset": 61,
+          "time": 234002
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 117,
+          "time": 239870
+        },
+        {
+          "answer": "normal",
+          "confidence": 1,
+          "dataset": 21,
+          "time": 283899
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 3,
+          "dataset": 158,
+          "time": 298511
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 159,
+          "time": 344752
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 1,
+          "dataset": 61,
+          "time": 411886
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 3,
+          "dataset": 155,
+          "time": 421340
+        }
+      ],
+      "sanitycheck": {
+        "q1": "samplesize",
+        "q2": "100000"
+      }
+    }
+  },
+  "brmbg5l1lb5mfa3xwt2yqlreiiej4wpb": {
+    "data": {
+      "participant": {
+        "age": "0-19",
+        "education": "high-school",
+        "experience": "none",
+        "profession": "student",
+        "residence": "Austria"
+      },
+      "results": [
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 48,
+          "time": 12017
+        },
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 58,
+          "time": 19107
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 24,
+          "time": 26002
+        },
+        {
+          "answer": "gamma",
+          "confidence": 3,
+          "dataset": 89,
+          "time": 38079
+        },
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 54,
+          "time": 43215
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 23,
+          "time": 963921
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 97,
+          "time": 968788
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 107,
+          "time": 972085
+        },
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 49,
+          "time": 976221
+        },
+        {
+          "answer": "normal",
+          "confidence": 3,
+          "dataset": 142,
+          "time": 981659
+        },
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 67,
+          "time": 986892
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 103,
+          "time": 991346
+        },
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 54,
+          "time": 998916
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 28,
+          "time": 1001659
+        },
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 56,
+          "time": 1004720
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 33,
+          "time": 1008472
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 25,
+          "time": 1011045
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 139,
+          "time": 1014847
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 37,
+          "time": 1017744
+        },
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 68,
+          "time": 1022466
+        }
+      ],
+      "sanitycheck": {
+        "q1": "statsign",
+        "q2": "1000"
+      }
+    }
+  },
+  "elayruwsgpiprm1dpn36mdnmf7t2muod": {
+    "data": {
+      "participant": {
+        "age": "30-49",
+        "education": "phd",
+        "experience": "expert",
+        "profession": "full-time",
+        "residence": "non-EU"
+      },
+      "results": [
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 76,
+          "time": 9781
+        },
+        {
+          "answer": "uniform",
+          "confidence": 2,
+          "dataset": 60,
+          "time": 17117
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 29,
+          "time": 23465
+        },
+        {
+          "answer": "normal",
+          "confidence": 3,
+          "dataset": 19,
+          "time": 33304
+        },
+        {
+          "answer": "gamma",
+          "confidence": 3,
+          "dataset": 89,
+          "time": 43763
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 1,
+          "dataset": 131,
+          "time": 55214
+        },
+        {
+          "answer": "normal",
+          "confidence": 3,
+          "dataset": 19,
+          "time": 62040
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 1,
+          "dataset": 40,
+          "time": 77642
+        },
+        {
+          "answer": "uniform",
+          "confidence": 2,
+          "dataset": 52,
+          "time": 82153
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 2,
+          "dataset": 42,
+          "time": 96527
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 1,
+          "dataset": 140,
+          "time": 101263
+        },
+        {
+          "answer": "uniform",
+          "confidence": 2,
+          "dataset": 66,
+          "time": 105458
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 3,
+          "dataset": 139,
+          "time": 109749
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 1,
+          "dataset": 55,
+          "time": 122345
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 116,
+          "time": 131690
+        },
+        {
+          "answer": "normal",
+          "confidence": 1,
+          "dataset": 22,
+          "time": 140703
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 1,
+          "dataset": 131,
+          "time": 147202
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 28,
+          "time": 150453
+        },
+        {
+          "answer": "normal",
+          "confidence": 3,
+          "dataset": 15,
+          "time": 154353
+        },
+        {
+          "answer": "gamma",
+          "confidence": 1,
+          "dataset": 91,
+          "time": 164162
+        }
+      ],
+      "sanitycheck": {
+        "q1": "samplesize",
+        "q2": "100000"
+      },
+      "timestamp": 1605006467303
+    }
+  },
+  "eobwezl7550km28ygcdtu0zebvuxdw2a": {
+    "data": {
+      "participant": {
+        "age": "30-49",
+        "education": "master",
+        "experience": "expert",
+        "profession": "research-edu",
+        "residence": "Austria"
+      },
+      "results": [
+        {
+          "answer": "normal",
+          "confidence": 3,
+          "dataset": 34,
+          "time": 9788
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 109,
+          "time": 17257
+        },
+        {
+          "answer": "uniform",
+          "confidence": 1,
+          "dataset": 50,
+          "time": 24284
+        },
+        {
+          "answer": "gamma",
+          "confidence": 1,
+          "dataset": 142,
+          "time": 39204
+        },
+        {
+          "answer": "gamma",
+          "confidence": 3,
+          "dataset": 153,
+          "time": 45336
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 1,
+          "dataset": 5,
+          "time": 56728
+        },
+        {
+          "answer": "normal",
+          "confidence": 3,
+          "dataset": 24,
+          "time": 60424
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 17,
+          "time": 64627
+        },
+        {
+          "answer": "normal",
+          "confidence": 2,
+          "dataset": 12,
+          "time": 72415
+        },
+        {
+          "answer": "gamma",
+          "confidence": 1,
+          "dataset": 80,
+          "time": 80232
+        },
+        {
+          "answer": "gamma",
+          "confidence": 1,
+          "dataset": 100,
+          "time": 87786
+        },
+        {
+          "answer": "gamma",
+          "confidence": 3,
+          "dataset": 87,
+          "time": 99975
+        },
+        {
+          "answer": "uniform",
+          "confidence": 3,
+          "dataset": 44,
+          "time": 108976
+        },
+        {
+          "answer": "normal",
+          "confidence": 3,
+          "dataset": 31,
+          "time": 117607
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 2,
+          "dataset": 133,
+          "time": 126459
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 97,
+          "time": 140448
+        },
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 64,
+          "time": 144803
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 28,
+          "time": 148198
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 28,
+          "time": 151802
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 27,
+          "time": 155846
+        }
+      ],
+      "sanitycheck": {
+        "q1": "samplesize",
+        "q2": "100000"
+      },
+      "timestamp": 1604998680044
+    }
+  },
+  "hjqtke8w5am5y1px373ejrcb0icp34hu": {
+    "data": {
+      "participant": {
+        "age": "20-29",
+        "education": "master",
+        "experience": "expert",
+        "profession": "research-edu",
+        "residence": "Austria"
+      },
+      "results": [
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 37,
+          "time": 30169
+        },
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 55,
+          "time": 35388
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 14,
+          "time": 47192
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 2,
+          "dataset": 129,
+          "time": 76388
+        },
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 42,
+          "time": 80526
+        },
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 50,
+          "time": 85373
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 3,
+          "dataset": 155,
+          "time": 93012
+        },
+        {
+          "answer": "normal",
+          "confidence": 2,
+          "dataset": 4,
+          "time": 106541
+        },
+        {
+          "answer": "uniform",
+          "confidence": 3,
+          "dataset": 69,
+          "time": 112079
+        },
+        {
+          "answer": "normal",
+          "confidence": 2,
+          "dataset": 7,
+          "time": 121710
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 81,
+          "time": 125362
+        },
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 49,
+          "time": 128922
+        },
+        {
+          "answer": "gamma",
+          "confidence": 2,
+          "dataset": 90,
+          "time": 158883
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 27,
+          "time": 162181
+        },
+        {
+          "answer": "gamma",
+          "confidence": 3,
+          "dataset": 102,
+          "time": 166782
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 2,
+          "dataset": 127,
+          "time": 178790
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 158,
+          "time": 181862
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 3,
+          "dataset": 157,
+          "time": 195990
+        },
+        {
+          "answer": "normal",
+          "confidence": 3,
+          "dataset": 2,
+          "time": 200743
+        },
+        {
+          "answer": "uniform",
+          "confidence": 2,
+          "dataset": 140,
+          "time": 210403
+        }
+      ],
+      "sanitycheck": {
+        "q1": "samplesize",
+        "q2": "100000"
+      }
+    }
+  },
+  "n6e897igseixxtqi3rm3ym4nd797y0g1": {
+    "data": {
+      "participant": {
+        "age": "0-19",
+        "education": "high-school",
+        "experience": "none",
+        "profession": "student",
+        "residence": "Austria"
+      },
+      "results": [
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 155,
+          "time": 2791
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 52,
+          "time": 5017
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 35,
+          "time": 7240
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 16,
+          "time": 10402
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 86,
+          "time": 13042
+        }
+      ],
+      "sanitycheck": {
+        "q1": "numbars",
+        "q2": "10000"
+      }
+    }
+  },
+  "njqudo2nx04q54s7kt926hvti7jcoy1g": {
+    "data": {
+      "participant": {
+        "age": "30-49",
+        "education": "master",
+        "experience": "expert",
+        "profession": "research-edu",
+        "residence": "Austria"
+      },
+      "results": [
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 147,
+          "time": 23025
+        },
+        {
+          "answer": "gamma",
+          "confidence": 3,
+          "dataset": 117,
+          "time": 38497
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 16,
+          "time": 47717
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 108,
+          "time": 55570
+        },
+        {
+          "answer": "gamma",
+          "confidence": 3,
+          "dataset": 98,
+          "time": 67961
+        },
+        {
+          "answer": "normal",
+          "confidence": 2,
+          "dataset": 4,
+          "time": 80655
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 3,
+          "dataset": 139,
+          "time": 94866
+        },
+        {
+          "answer": "uniform",
+          "confidence": 1,
+          "dataset": 131,
+          "time": 105005
+        },
+        {
+          "answer": "normal",
+          "confidence": 1,
+          "dataset": 152,
+          "time": 118163
+        },
+        {
+          "answer": "uniform",
+          "confidence": 1,
+          "dataset": 130,
+          "time": 122889
+        },
+        {
+          "answer": "normal",
+          "confidence": 1,
+          "dataset": 9,
+          "time": 147348
+        },
+        {
+          "answer": "normal",
+          "confidence": 1,
+          "dataset": 1,
+          "time": 152491
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 26,
+          "time": 159173
+        },
+        {
+          "answer": "uniform",
+          "confidence": 1,
+          "dataset": 141,
+          "time": 163714
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 147,
+          "time": 173249
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 106,
+          "time": 180898
+        },
+        {
+          "answer": "normal",
+          "confidence": 2,
+          "dataset": 3,
+          "time": 185010
+        },
+        {
+          "answer": "gamma",
+          "confidence": 2,
+          "dataset": 84,
+          "time": 189835
+        },
+        {
+          "answer": "normal",
+          "confidence": 1,
+          "dataset": 132,
+          "time": 196920
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 2,
+          "dataset": 125,
+          "time": 200731
+        }
+      ],
+      "sanitycheck": {
+        "q1": "samplesize",
+        "q2": "100000"
+      }
+    }
+  },
+  "q93kfnrre4cpis6atqimxg7a4ojl9klq": {
+    "data": {
+      "participant": {
+        "age": "30-49",
+        "education": "phd",
+        "experience": "expert",
+        "profession": "research-edu",
+        "residence": "Austria"
+      },
+      "results": [
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 13,
+          "time": 6023
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 95,
+          "time": 8992
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 2,
+          "dataset": 89,
+          "time": 12349
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 4,
+          "time": 15620
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 149,
+          "time": 19095
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 12,
+          "time": 21687
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 15,
+          "time": 24238
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 3,
+          "dataset": 128,
+          "time": 26920
+        },
+        {
+          "answer": "uniform",
+          "confidence": 1,
+          "dataset": 40,
+          "time": 30430
+        },
+        {
+          "answer": "gamma",
+          "confidence": 3,
+          "dataset": 95,
+          "time": 33923
+        },
+        {
+          "answer": "normal",
+          "confidence": 1,
+          "dataset": 132,
+          "time": 39466
+        },
+        {
+          "answer": "gamma",
+          "confidence": 3,
+          "dataset": 95,
+          "time": 42737
+        },
+        {
+          "answer": "gamma",
+          "confidence": 1,
+          "dataset": 111,
+          "time": 45702
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 2,
+          "dataset": 136,
+          "time": 50567
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 39,
+          "time": 53248
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 2,
+          "dataset": 134,
+          "time": 56794
+        },
+        {
+          "answer": "uniform",
+          "confidence": 2,
+          "dataset": 10,
+          "time": 61338
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 1,
+          "dataset": 47,
+          "time": 66768
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 2,
+          "dataset": 134,
+          "time": 70308
+        },
+        {
+          "answer": "uniform",
+          "confidence": 1,
+          "dataset": 57,
+          "time": 72894
+        }
+      ],
+      "sanitycheck": {
+        "q1": "samplesize",
+        "q2": "100000"
+      },
+      "timestamp": 1605214956680
+    }
+  },
+  "sg4etd5jso1s8fnkh7d57ziyxel63jzm": {
+    "data": {
+      "participant": {
+        "age": "0-19",
+        "education": "high-school",
+        "experience": "none",
+        "profession": "student",
+        "residence": "Austria"
+      },
+      "results": [
+        {
+          "answer": "uniform",
+          "confidence": 1,
+          "dataset": 87,
+          "time": 4719
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 39,
+          "time": 8205
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 98,
+          "time": 11341
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 7,
+          "time": 18903
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 11,
+          "time": 22305
+        },
+        {
+          "answer": "normal",
+          "confidence": 2,
+          "dataset": 21,
+          "time": 24729
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 3,
+          "dataset": 133,
+          "time": 27273
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 150,
+          "time": 37426
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 9,
+          "time": 42772
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 63,
+          "time": 45751
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 61,
+          "time": 47945
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 26,
+          "time": 50197
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 104,
+          "time": 52523
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 155,
+          "time": 55217
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 80,
+          "time": 58315
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 146,
+          "time": 61152
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 114,
+          "time": 63722
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 141,
+          "time": 66438
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 4,
+          "dataset": 114,
+          "time": 73095
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 149,
+          "time": 76487
+        }
+      ],
+      "sanitycheck": {
+        "q1": "samplesize",
+        "q2": "1000"
+      },
+      "timestamp": 1605099418500
+    }
+  },
+  "zsz2lw46jpce6qwvdk6did9q1629mchd": {
+    "data": {
+      "participant": {
+        "age": "30-49",
+        "education": "phd",
+        "experience": "expert",
+        "profession": "research-edu",
+        "residence": "Austria"
+      },
+      "results": [
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 107,
+          "time": 8230
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 103,
+          "time": 11071
+        },
+        {
+          "answer": "gamma",
+          "confidence": 2,
+          "dataset": 140,
+          "time": 16253
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 2,
+          "dataset": 127,
+          "time": 24241
+        },
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 68,
+          "time": 27782
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 96,
+          "time": 30865
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 95,
+          "time": 33704
+        },
+        {
+          "answer": "normal_bimodal",
+          "confidence": 3,
+          "dataset": 128,
+          "time": 38378
+        },
+        {
+          "answer": "gamma",
+          "confidence": 3,
+          "dataset": 83,
+          "time": 42180
+        },
+        {
+          "answer": "gamma",
+          "confidence": 1,
+          "dataset": 9,
+          "time": 52240
+        },
+        {
+          "answer": "normal",
+          "confidence": 3,
+          "dataset": 23,
+          "time": 64102
+        },
+        {
+          "answer": "gamma",
+          "confidence": 4,
+          "dataset": 98,
+          "time": 69694
+        },
+        {
+          "answer": "uniform",
+          "confidence": 4,
+          "dataset": 72,
+          "time": 73144
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 24,
+          "time": 76054
+        },
+        {
+          "answer": "gamma",
+          "confidence": 2,
+          "dataset": 5,
+          "time": 82616
+        },
+        {
+          "answer": "normal",
+          "confidence": 2,
+          "dataset": 143,
+          "time": 87157
+        },
+        {
+          "answer": "normal",
+          "confidence": 4,
+          "dataset": 29,
+          "time": 90566
+        },
+        {
+          "answer": "gamma",
+          "confidence": 1,
+          "dataset": 100,
+          "time": 94304
+        },
+        {
+          "answer": "uniform",
+          "confidence": 1,
+          "dataset": 120,
+          "time": 97767
+        },
+        {
+          "answer": "normal",
+          "confidence": 2,
+          "dataset": 6,
+          "time": 102296
+        }
+      ],
+      "sanitycheck": {
+        "q1": "samplesize",
+        "q2": "100000"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.startform {
+  margin: 30px 0px 10px 0px;
+  text-align: left;
+}
+
+.errormsgstart {
+  padding: 20px 0px 0px 20px;
+}
+
+.errormsgtxtstart {
+  color: red;
+}
+
+.submitbtn {
+  text-align: right;
+  padding: 20px 0px 10px 0px;
+}

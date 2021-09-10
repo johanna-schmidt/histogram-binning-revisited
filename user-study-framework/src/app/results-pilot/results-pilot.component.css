@@ -1,0 +1,47 @@
+.tooltipbarchart {
+  display: none;
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  width: 170px;
+  height: 30px;
+  background-color: DarkSlateGray;
+  border: 1px solid DimGray;
+  padding: 3px;
+  color: white;
+  text-align: center;
+  font-size: 10pt;
+  z-index: 10;
+}
+
+.plotarea {
+  padding: 0px 50px 10px 50px;
+}
+
+.plotresultssvg {
+  width: 100%;
+  height: 200px;
+}
+
+.plotparticipantsvg {
+  width: 100%;
+  height: 150px;
+}
+
+.plottimeparent {
+  padding: 10px 50px 10px 50px;
+}
+
+.plottimesvg {
+  width: 100%;
+  height: 200px;
+}
+
+.plotdatasetsparent {
+  padding: 10px 50px 30px 50px;
+}
+
+.plotdatasetsparentsvg {
+  width: 100%;
+  height: 400px;
+}

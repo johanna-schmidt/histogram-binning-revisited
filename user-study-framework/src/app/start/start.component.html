@@ -1,0 +1,52 @@
+<div class="col-lg-6 text-center">
+
+  <form class="startform">
+
+    <p class="lead text-left">Question 1 of 23</p>
+
+    <div class="form-group">
+      <label for="age">How old are you?</label>
+      <select id="age" name="age" class="form-control" [(ngModel)]="selectAge.selected">
+        <option [value]="option.value" *ngFor="let option of selectAge.options">{{option.name}}</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="education">What is the highest degree or level of education you have completed?</label>
+      <select id="education" name="education" class="form-control" [(ngModel)]="selectEducation.selected">
+        <option [value]="option.value" *ngFor="let option of selectEducation.options">{{option.name}}</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="residence">Where do you currently live?</label>
+      <select id="residence" name="residence" class="form-control" [(ngModel)]="selectResidence.selected">
+        <option [value]="option.value" *ngFor="let option of selectResidence.options">{{option.name}}</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="profession">What is your current main occupation?</label>
+      <select id="profession" name="profession" class="form-control" [(ngModel)]="selectProfession.selected">
+        <option [value]="option.value" *ngFor="let option of selectProfession.options">{{option.name}}</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="experience">What is your experience with data visualizations?</label>
+      <select id="experience" name="experience" class="form-control" [(ngModel)]="selectExperience.selected">
+        <option [value]="option.value" *ngFor="let option of selectExperience.options">{{option.name}}</option>
+      </select>
+    </div>
+
+    <div class="form-check errormsgstart" *ngIf="errorOccured">
+      <p class="lead errormsgtxtstart">Please answer all questions.</p>
+    </div>
+
+    <div class="form-check submitbtn">
+      <button type="button" class="btn btn-info" (click)="onSubmitClicked()">Save and Continue</button>
+    </div>
+
+  </form>
+
+</div>

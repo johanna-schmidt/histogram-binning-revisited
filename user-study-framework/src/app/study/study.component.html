@@ -1,0 +1,87 @@
+<div class="col-lg-8 text-center">
+
+  <form class="studyform">
+
+    <p class="lead text-left">Question {{totalNumQuestion}} of 23</p>
+
+    <div class="col-lg-12 form-group">
+      <div class="col-lg-10">
+        <p class="lead text-right">n = {{currentSampleSize}}</p>
+      </div>
+      <svg #plot style="width: 500px; height: 350px"></svg>
+    </div>
+
+    <p class="lead text-left">1. Choose the distribution which resembles the image above most closely:</p>
+    <div class="row">
+      <div class="col-md-3" style="margin: 0; padding: 0">
+        <div class="selector">
+          <input id="distribution1" type="radio" name="distribution" value="uniform" [(ngModel)]="distribution.value" />
+          <label class="distrselection uniform" for="distribution1"></label>
+        </div>
+      </div>
+      <div class="col-md-3" style="margin: 0; padding: 0">
+        <div class="selector">
+          <input id="distribution2" type="radio" name="distribution" value="normal" [(ngModel)]="distribution.value" />
+          <label class="distrselection normal" for="distribution2"></label>
+        </div>
+      </div>
+      <div class="col-md-3" style="margin: 0; padding: 0">
+        <div class="selector">
+          <input id="distribution3" type="radio" name="distribution" value="normal_bimodal" [(ngModel)]="distribution.value" />
+          <label class="distrselection binormal" for="distribution3"></label>
+        </div>
+      </div>
+      <div class="col-md-3" style="margin: 0; padding: 0">
+        <div class="selector">
+          <input id="distribution4" type="radio" name="distribution" value="gamma" [(ngModel)]="distribution.value" />
+          <label class="distrselection gamma" for="distribution4"></label>
+        </div>
+      </div>
+    </div>
+
+    <br />
+    <p class="lead text-left">2. How confident are you about your answer?</p>
+    <div class="row">
+      <div class="col-md-3" style="margin: 0; padding: 0">
+        <div class="confselector">
+          <input id="confidence1" type="radio" name="confidence" value="1" [(ngModel)]="confidence.value" />
+          <label class="confselection confidence1" for="confidence1"></label>
+        </div>
+      </div>
+      <div class="col-md-3" style="margin: 0; padding: 0">
+        <div class="confselector">
+          <input id="confidence2" type="radio" name="confidence" value="2" [(ngModel)]="confidence.value" />
+          <label class="confselection confidence2" for="confidence2"></label>
+        </div>
+      </div>
+      <div class="col-md-3" style="margin: 0; padding: 0">
+        <div class="confselector">
+          <input id="confidence3" type="radio" name="confidence" value="3" [(ngModel)]="confidence.value" />
+          <label class="confselection confidence3" for="confidence3"></label>
+        </div>
+      </div>
+      <div class="col-md-3" style="margin: 0; padding: 0">
+        <div class="confselector">
+          <input id="confidence4" type="radio" name="confidence" value="4" [(ngModel)]="confidence.value" />
+          <label class="confselection confidence4" for="confidence4"></label>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-check errormessage" *ngIf="errorOccured">
+      <p class="lead errormessagetxt">Please answer all questions.</p>
+    </div>
+
+    <div class="form-check savebtn" *ngIf="isNext">
+      <br />
+      <button type="button" class="btn btn-info" (click)="onNextBtnClicked()"> Next Question </button>
+    </div>
+
+    <div class="form-check savebtn" *ngIf="isLast">
+      <br />
+      <button type="button" class="btn btn-info" (click)="onSaveBtnClicked()"> Save Study </button>
+    </div>
+
+  </form>
+
+</div>

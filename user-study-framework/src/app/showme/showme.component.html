@@ -1,0 +1,138 @@
+
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <div class="container">
+    <span class="navbar-brand" href="#">User Study - Participant Results</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div *ngIf="tokenNotFound">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <br />
+        <br />
+        <p class="lead">Token or data was not found!</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="!tokenNotFound">
+  <div class="container-fluid plotarea">
+    <div class="row">
+      <p class="lead">Your results:</p>
+    </div>
+    <div class="row">
+      <div #plotcolumn01 class="col-lg-2 form-group">
+        <p class="lead">1</p>
+        <svg #plot01 class="singleplot"></svg>
+        <div #plot01data></div>
+        <div #plot01answer></div>
+        <br />
+        <p class="lead">6</p>
+        <svg #plot06 class="singleplot"></svg>
+        <div #plot06data></div>
+        <div #plot06answer></div>
+        <br />
+        <p class="lead">11</p>
+        <svg #plot11 class="singleplot"></svg>
+        <div #plot11data></div>
+        <div #plot11answer></div>
+        <br />
+        <p class="lead">16</p>
+        <svg #plot16 class="singleplot"></svg>
+        <div #plot16data></div>
+        <div #plot16answer></div>
+      </div>
+      <div #plotcolumn02 class="col-lg-2 form-group">
+        <p class="lead">2</p>
+        <svg #plot02 class="singleplot"></svg>
+        <div #plot02data></div>
+        <div #plot02answer></div>
+        <br />
+        <p class="lead">7</p>
+        <svg #plot07 class="singleplot"></svg>
+        <div #plot07data></div>
+        <div #plot07answer></div>
+        <br />
+        <p class="lead">12</p>
+        <svg #plot12 class="singleplot"></svg>
+        <div #plot12data></div>
+        <div #plot12answer></div>
+        <br />
+        <p class="lead">17</p>
+        <svg #plot17 class="singleplot"></svg>
+        <div #plot17data></div>
+        <div #plot17answer></div>
+      </div>
+      <div #plotcolumn03 class="col-lg-2 form-group">
+        <p class="lead">3</p>
+        <svg #plot03 class="singleplot"></svg>
+        <div #plot03data></div>
+        <div #plot03answer></div>
+        <br />
+        <p class="lead">8</p>
+        <svg #plot08 class="singleplot"></svg>
+        <div #plot08data></div>
+        <div #plot08answer></div>
+        <br />
+        <p class="lead">13</p>
+        <svg #plot13 class="singleplot"></svg>
+        <div #plot13data></div>
+        <div #plot13answer></div>
+        <br />
+        <p class="lead">18</p>
+        <svg #plot18 class="singleplot"></svg>
+        <div #plot18data></div>
+        <div #plot18answer></div>
+      </div>
+      <div #plotcolumn04 class="col-lg-2 form-group">
+        <p class="lead">4</p>
+        <svg #plot04 class="singleplot"></svg>
+        <div #plot04data></div>
+        <div #plot04answer></div>
+        <br />
+        <p class="lead">9</p>
+        <svg #plot09 class="singleplot"></svg>
+        <div #plot09data></div>
+        <div #plot09answer></div>
+        <br />
+        <p class="lead">14</p>
+        <svg #plot14 class="singleplot"></svg>
+        <div #plot14data></div>
+        <div #plot14answer></div>
+        <br />
+        <p class="lead">19</p>
+        <svg #plot19 class="singleplot"></svg>
+        <div #plot19data></div>
+        <div #plot19answer></div>
+      </div>
+      <div #plotcolumn05 class="col-lg-2 form-group">
+        <p class="lead">5</p>
+        <svg #plot05 class="singleplot"></svg>
+        <div #plot05data></div>
+        <div #plot05answer></div>
+        <br />
+        <p class="lead">10</p>
+        <svg #plot10 class="singleplot"></svg>
+        <div #plot10data></div>
+        <div #plot10answer></div>
+        <br />
+        <p class="lead">15</p>
+        <svg #plot15 class="singleplot"></svg>
+        <div #plot15data></div>
+        <div #plot15answer></div>
+        <br />
+        <p class="lead">20</p>
+        <svg #plot20 class="singleplot"></svg>
+        <div #plot20data></div>
+        <div #plot20answer></div>
+      </div>
+    </div>
+  </div>
+</div>

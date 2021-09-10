@@ -1,0 +1,81 @@
+
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+  <div class="container">
+    <span class="navbar-brand" href="#">Results :: Pilot Study</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</nav>
+
+<div #tooltip class="tooltipbarchart">
+  TOOLTIP
+</div>
+
+<div class="container">
+  <div class="row">
+    <p><br />Number of participants: {{numParticipants}}</p>
+  </div>
+  <div class="row">
+    <p>Datasets: <b>{{correct}}</b> correct, <b>{{wrong}}</b> wrong -> <b>{{errorRate}}%</b> error rate<br /><br /></p>
+  </div>
+</div>
+
+<div class="container-fluid plotarea">
+  <div class="row">
+
+    <!-- Correct/wrong per type and binsize -->
+    <div #plotresultsparent class="col-lg-4 form-group">
+      <p class="lead">Correct/wrong per distribution:</p>
+      <svg #ploterrorbytype class="plotresultssvg"></svg>
+      <br />
+      <p class="lead">Correct/wrong per bin size:</p>
+      <svg #ploterrorperbinsize class="plotresultssvg"></svg>
+    </div>
+
+    <!-- Sanity Check -->
+    <div #plotsanitycheckparent class="col-lg-4 form-group">
+      <p class="lead">Sanity check 1:</p>
+      <svg #plotsanitycheck1 class="plotresultssvg"></svg>
+      <br />
+      <p class="lead">Sanity check 2:</p>
+      <svg #plotsanitycheck2 class="plotresultssvg"></svg>
+    </div>
+
+    <!-- Participants -->
+    <div #plotparticipantsparent class="col-lg-4 form-group">
+      <p class="lead">Participants:</p>
+      <div class="row">
+        <div class="col-lg-6 form-group">
+          <svg #plotparticipantsage class="plotparticipantsvg"></svg>
+        </div>
+        <div class="col-lg-6 form-group">
+          <svg #plotparticipantsresidence class="plotparticipantsvg"></svg>
+        </div>
+      </div>
+      <div class="row">
+        <svg #plotparticipantsexperience class="plotparticipantsvg"></svg>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 form-group">
+          <svg #plotparticipantseducation class="plotparticipantsvg"></svg>
+        </div>
+        <div class="col-lg-6 form-group">
+          <svg #plotparticipantsprofession class="plotparticipantsvg"></svg>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div #plottimeparent class="container-fluid plottimeparent">
+  <p class="lead">Days and number of participants:</p>
+  <svg #plottime class="plottimesvg"></svg>
+</div>
+
+<div #plotdatasetsparent class="container-fluid plotdatasetsparent">
+  <p class="lead">Datasets:</p>
+  <svg #plotdatasets class="plotdatasetsparentsvg"></svg>
+</div>

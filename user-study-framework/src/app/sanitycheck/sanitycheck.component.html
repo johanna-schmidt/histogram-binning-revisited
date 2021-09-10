@@ -1,0 +1,115 @@
+<div class="col-lg-8 text-center">
+
+  <div *ngIf="showFirst">
+    <form class="sanitycheckform">
+
+      <p class="lead text-left">Question 2 of 23</p>
+
+      <img alt="histogram" src="/assets/sanitycheck.png" style="height: 450px" /><br />
+      <br />
+
+      <p class="lead">What does n stand for in the above image?</p>
+
+      <div class="form-check">
+        <div class="selectorsc1">
+          <input type="radio" name="n" id="n1" value="samplesize" [(ngModel)]="radio1.value" />
+          <label class="sc1selection sc1_n1" for="n1"></label>
+        </div>
+      </div>
+
+      <div class="form-check" style="margin-top: 7px">
+        <div class="selectorsc1">
+          <input type="radio" name="n" id="n2" value="numbars" [(ngModel)]="radio1.value" />
+          <label class="sc1selection sc1_n2" for="n2"></label>
+        </div>
+      </div>
+
+      <div class="form-check" style="margin-top: 7px">
+        <div class="selectorsc1">
+          <input type="radio" name="n" id="n3" value="maxvalue" [(ngModel)]="radio1.value" />
+          <label class="sc1selection sc1_n3" for="n3"></label>
+        </div>
+      </div>
+
+      <div class="form-check" style="margin-top: 7px">
+        <div class="selectorsc1">
+          <input type="radio" name="n" id="n4" value="statsign" [(ngModel)]="radio1.value" />
+          <label class="sc1selection sc1_n4" for="n4"></label>
+        </div>
+      </div>
+
+      <div class="form-check" style="margin-top: 7px">
+        <div class="selectorsc1">
+          <input type="radio" name="n" id="n5" value="dunno" [(ngModel)]="radio1.value" />
+          <label class="sc1selection sc1_n5" for="n5"></label>
+        </div>
+      </div>
+
+      <div class="form-check errormsg" *ngIf="errorOccured">
+        <p class="lead errormsgtxt">Please select one item in the list...</p>
+      </div>
+
+      <div class="form-check nextbtn">
+        <button type="button" class="btn btn-info" (click)="submitFirst()">Save and Continue</button>
+      </div>
+
+    </form>
+  </div>
+
+  <div *ngIf="showSecond">
+    <form class="sanitycheckform">
+
+      <p class="lead text-left">Question 3 of 23</p>
+
+      <img alt="histogram" src="/assets/sanitycheck.png" style="height: 450px" /><br />
+      <br />
+
+      <p class="lead">What is the sample size (= number of shown data points) in the above image?</p>
+
+      <div class="form-check" style="margin-top: 7px">
+        <div class="selectorsc2">
+          <input type="radio" name="s" id="s1" value="1000" [(ngModel)]="radio2.value" />
+          <label class="sc2selection sc2_s1" for="s1"></label>
+        </div>
+      </div>
+
+      <div class="form-check" style="margin-top: 7px">
+        <div class="selectorsc2">
+          <input type="radio" name="s" id="s2" value="10000" [(ngModel)]="radio2.value" />
+          <label class="sc2selection sc2_s2" for="s2"></label>
+        </div>
+      </div>
+
+      <div class="form-check" style="margin-top: 7px">
+        <div class="selectorsc2">
+          <input type="radio" name="s" id="s3" value="100000" [(ngModel)]="radio2.value" />
+          <label class="sc2selection sc2_s3" for="s3"></label>
+        </div>
+      </div>
+
+      <div class="form-check" style="margin-top: 7px">
+        <div class="selectorsc2">
+          <input type="radio" name="s" id="s4" value="1000000" [(ngModel)]="radio2.value" />
+          <label class="sc2selection sc2_s4" for="s4"></label>
+        </div>
+      </div>
+
+      <div class="form-check" style="margin-top: 7px">
+        <div class="selectorsc2">
+          <input type="radio" name="s" id="s5" value="dunno" [(ngModel)]="radio2.value" />
+          <label class="sc2selection sc2_s5" for="s5"></label>
+        </div>
+      </div>
+
+      <div class="form-check errormsg" *ngIf="errorOccured">
+        <p class="lead errormsgtxt">Please select one item in the list...</p>
+      </div>
+
+      <div class="form-check nextbtn">
+        <button type="button" class="btn btn-info" (click)="submitSecond()">Save and Continue</button>
+      </div>
+
+    </form>
+  </div>
+
+</div>
