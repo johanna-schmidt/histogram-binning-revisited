@@ -2,7 +2,7 @@
 
 We implemented a quantitative user study to evaluate how well users can visually perceive the underlying data distribution from a histogram representation. We used histograms with different sample and bin sizes and four different distributions (uniform, normal, bimodal, and gamma). The study results confirm that, in general, more bins correlate with fewer errors by the viewers.
 
-![Teaser](https://johanna-schmidt.github.io/selective-angular-brushing/teaser.png)
+![Teaser](https://raw.githubusercontent.com/johanna-schmidt/histogram-binning-revisited/main/pics/teaser.png)
 
 However, upon a certain number of bins, the error rate cannot be improved by adding more bins. By comparing our study results with the outcomes of existing mathematical models for histogram binning (e.g., Sturges’ formula, Scott’s normal reference rule, the Rice Rule, or Freedman–Diaconis’ choice), we can see that most of them overestimate the number of bins necessary to make the distribution visible to a human viewer.
 
