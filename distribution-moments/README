@@ -1,0 +1,3 @@
+generate_data.py generates the data used in the user study and outputs it as JSON.
+
+moment_errors_threaded.py calculates the errors between the moments of the actual distributions and all binning configurations showed in our work. The output is stored as .csv file.
